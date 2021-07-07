@@ -1,0 +1,112 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+   
+}
+.skip{
+    color: yellow;
+}
+}
+
+p{
+    color: rgb(146, 70, 223);
+}
+
+
+
+.half-width{
+
+      width: 40%;
+      float: left;
+      margin-left: 5%;
+      padding-left: 2%;
+
+
+}
+.half-width img{
+    width: 100%;
+}
+
+.top-banner{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.recipies{
+
+    text-align: center;
+}
+section{
+    height: 500px;
+}
+.button{
+    text-decoration: none;
+    background-image:linear-gradient( white, red ) ;    
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+
+img{
+    margin-top: 50px;
+}
+.dream-area{
+
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.experience-area{
+    display: flex;
+}
+
+.container{
+    margin: 100px;
+    background-color: cornsilk;
+    border-radius: 4px;
+    
+}
+section.big-deal .timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -2rem;
+}
+section.big-deal .timer div{
+    margin-right: 2rem;
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+section.big-deal .timer div span:first-child{
+     font-family:"Raleway-semibold";
+     font-size: 2.5rem;
+     columns: black;
+     margin-bottom: 0.05rem;
+
+}
+section.big-deal .timer div span:last-child{
+    font-family:"Raleway-semibold";
+    color: black;
+}
+.ftr{
+    color: darkgoldenrod;
+}
+footer{
+    background-color:yellowgreen;
+    text-align: center;
+    
+
+}
+
+
